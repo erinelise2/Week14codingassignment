@@ -5,7 +5,7 @@ import Movie from "./Movie";
 export default function App() {
   return (
     <div>
-      <h1 className="webpage-header text-center pb-4">LucasFilms</h1>
+      <h1 className="webpage-header text-center pb-4">Rating LucasFilms</h1>
       <main>
         {data.map((movie) => (
           <Movie key={movie.id} {...movie} />

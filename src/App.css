@@ -11,7 +11,7 @@ main {
 }
 
 .webpage-header {
-  font-size: 90pt;
+  font-size: 50pt;
 }
 
 .movie-cards{
@@ -22,24 +22,24 @@ main {
 }
 
 .movie-cards a {
-  color: rgb(242, 79, 73);
+  color:white;
   cursor: pointer;
 }
 
 .movie-title {
   font-family: "Acme";
-  text-align: center;
+  text-align: left;
   font-weight: bolder;
   font-size: x-large;
 }
 
-.movie-year {
+/* .movie-year {
   font-family: "Acme";
   text-align: center;
   font-weight: bolder;
   font-size: large;
   font-style: italic;
-}
+} */
 
 .movie-specs {
   font-size: small;
