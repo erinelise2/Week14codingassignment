@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body {
+	background: linear-gradient(#000000, #d8d7d7, #6f8bdf, #000000, #d8d7d7, #6f8bdf, #000000, #d8d7d7, #6f8bdf) ;
+	color: #ffffff;
+  font-family: "Acme";
+  margin: 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+
+.webpage-header {
+  font-size: 90pt;
+}
+
+.movie-cards{
+  flex: 25%;
+  margin: 12px;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px 0px rgba(74, 37, 37, 0.75);
+}
+
+.movie-cards a {
+  color: rgb(242, 79, 73);
+  cursor: pointer;
+}
+
+.movie-title {
+  font-family: "Acme";
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.movie-year {
+  font-family: "Acme";
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  font-style: italic;
+}
+
+.movie-specs {
+  font-size: small;
+  font-style: italic;
+}
+
+.summary {
+  font-weight: bolder;
+  font-family: 'Acme';
+  font-style: normal;
+  letter-spacing: 1pt;
+  font-size: small;
+}
+
+.movie-link {
+  color:  rgb(242, 79, 73);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.external-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Acme";
+  font-size: large;
 }
