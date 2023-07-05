@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 // https://react-bootstrap.netlify.app/docs/components/cards/
 // https://www.geeksforgeeks.org/how-to-use-bootstrap-with-react/
 // https://mdbootstrap.com/docs/react/components/cards/
+// buttons https://ej2.syncfusion.com/react/documentation/card/action-buttons#:~:text=You%20can%20include%20Action%20buttons,within%20the%20card%20action%20element.
 
 export default function Movie(props) {
     return (
@@ -17,7 +18,7 @@ export default function Movie(props) {
                     <b className="summary">Writer(s) - </b> {props.writers} <br />
                     <b className="summary">Starring - </b> {props.actors} <br />
                     <hr />
-                    <b className="summary">Movie Summary -  </b> {props.summary}
+                    <b className="summary"></b> {props.summary}
                 </Card.Text>
                 <div className="card-btn"    >
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film</button>
