@@ -10,7 +10,8 @@ export default function Movie(props) {
     return (
         <Card bg="secondary" text="white" className="movie-cards">
             <Card.Body>
-                <Card.Title className="movie-title pb-1">{props.title} ({props.year})</Card.Title>
+                <Card.Title className="movie-title">{props.title} ({props.year})</Card.Title>
+                <hr />
                 <Card.Img variant="top" src={props.image} />
                 <hr />
                 <Card.Text className="movie-specs">
@@ -23,7 +24,8 @@ export default function Movie(props) {
                 <div className="card-btn"    >
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film</button>
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button>
-                </div>         
+                </div>
+                <hr />    
                 <div className="external-links pt-2">
                     <a href={props.imdb} target="_blank">IMDb</a>
                     <a href={props.moviepage} target="_blank">Official Movie Site</a>

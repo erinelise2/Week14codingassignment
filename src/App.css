@@ -42,7 +42,7 @@ main {
 } */
 
 .movie-specs {
-  font-size: small;
+  font-size: medium;
   font-style: italic;
 }
 
@@ -51,7 +51,7 @@ main {
   font-family: 'Acme';
   font-style: normal;
   letter-spacing: 1pt;
-  font-size: small;
+  font-size: medium;
 }
 
 .movie-link {
