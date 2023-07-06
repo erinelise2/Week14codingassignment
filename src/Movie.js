@@ -22,7 +22,7 @@ export default function Movie(props) {
                     <b className="summary"></b> {props.summary}
                 </Card.Text>
                 <div className="card-btn"    >
-                    <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film</button>
+                    <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film 🔥</button>
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button>
                 </div>
                 <hr />    
