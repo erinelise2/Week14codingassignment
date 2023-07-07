@@ -21,9 +21,9 @@ function ReviewMovie() {
 
   return (
     <>
-      <Button className="review-btn btn border-secondary bg-white form-control mb-2" variant="white" onClick={handleShow}>
+      <button onClick={handleShow} className="review-btn btn border-secondary bg-white form-control mb-2" variant="white">
       Review Film 
-      </Button>
+      </button>
 
       <Modal
         show={show}
@@ -35,14 +35,14 @@ function ReviewMovie() {
           <Modal.Title className="text-dark">Review Film</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <form className="user-review-modal">
-                <input className="form-control" type="text" name="userName" placeholder="Your Name" />
-                <input className="form-control"type="text" name="userReview" placeholder="Your Reivew" />
-                <input className="form-control"type="date" name="reviewDate" placeholder="Today's Date" />
+            <form id="user-review-modal" className="user-review-modal">
+                <input className="form-control mb-1" type="text" id="userName" name="userName" placeholder="Your Name" />
+                <input className="form-control mb-1" type="text" id="userReview" name="userReview" placeholder="Your Reivew" />
+                <input className="form-control" type="date" id="reviewDate" name="reviewDate" placeholder="Today's Date" />
             </form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary">Submit Your Review</Button>
+          <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Review</button>
         </Modal.Footer>
       </Modal>
     </>
