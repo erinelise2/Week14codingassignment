@@ -29,12 +29,12 @@ export default function Movie(props) {
                 </div>
                 <hr />    
                 <div className="external-links pt-2">
-                    <a href={props.imdb} target="_blank">IMDb</a>
-                    <a href={props.moviepage} target="_blank">Official Movie Site</a>
+                    <a href={props.imdb} className="p-1 m-1" target="_blank">IMDb</a>
+                    <a href={props.moviepage} className="p-1 m-1"  target="_blank">Official Site</a>
                 </div>
             </Card.Body>
             <Card.Footer>
-
+{/* call in ReviewModal? connected to buttons. Remove Rate Film button with stars/flames that are clickable */}
             </Card.Footer>
         </Card>
     );
