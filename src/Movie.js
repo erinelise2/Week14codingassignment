@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Stars from "./Stars";
 import ReviewModal from "./ReviewModal";
 import RateModal from "./RateModal";
+import ReviewList from "./ReviewList"
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
@@ -38,7 +39,8 @@ export default function Movie(props) {
                 </div>
             </Card.Body>
             <Card.Footer>
-            <button className="review-btn btn border-secondary bg-white form-control mt-2">View Reviews</button>
+                <ReviewList />
+            {/* <button className="review-btn btn border-secondary bg-white form-control mt-2">View Reviews</button> */}
             </Card.Footer>
         </Card>
     );

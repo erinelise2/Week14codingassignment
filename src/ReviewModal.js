@@ -42,7 +42,7 @@ function ReviewMovie() {
             </form>
         </Modal.Body>
         <Modal.Footer>
-          <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Review </button>
+          <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mt-1 mb-2">Submit Your Review </button>
         </Modal.Footer>
       </Modal>
     </>
