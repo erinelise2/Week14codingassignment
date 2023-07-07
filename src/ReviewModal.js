@@ -7,10 +7,10 @@
 // // https://www.npmjs.com/package/react-modal
 // // https://codepen.io/claydiffrient/pen/KNxgav
 
-// Static Backdrop templatef from https://react-bootstrap.netlify.app/docs/components/modal/
+// Static Backdrop template from https://react-bootstrap.netlify.app/docs/components/modal/
 
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button'; // leaving here, but changed to lowercase b from bootstrap
 import Modal from 'react-bootstrap/Modal';
 
 function ReviewMovie() {
@@ -42,7 +42,7 @@ function ReviewMovie() {
             </form>
         </Modal.Body>
         <Modal.Footer>
-          <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Review</button>
+          <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Review </button>
         </Modal.Footer>
       </Modal>
     </>
