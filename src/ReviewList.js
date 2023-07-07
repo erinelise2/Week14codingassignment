@@ -15,7 +15,7 @@ function ReviewList() {
 
   return (
     <>
-      <button onClick={handleShow} className="review-list-btn btn border-secondary bg-white form-control mb-2" variant="white">
+      <button onClick={handleShow} className="review-list-btn btn border-secondary bg-white form-control mt-2 mb-2" variant="white">
       View Reviews 
       </button>
 
