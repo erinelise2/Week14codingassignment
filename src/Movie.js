@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import Stars from "./Stars"
-// import ReviewModal from "./ReviewModal"
-
+import Stars from "./Stars";
+import ReviewModal from "./ReviewModal";
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
@@ -26,9 +25,10 @@ export default function Movie(props) {
                     <b className="summary"></b> {props.summary}
                 </Card.Text>
                 <div className="card-btn"> 
-{/* option to show current star */}
+{/* option to show current star average */}
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film 🔥</button>
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button>
+                    <button className="review-btn btn border-secondary bg-white form-control mb-2">View Reviews</button>
                 </div>
                 <hr />    
                 <div className="external-links pt-2">
@@ -37,7 +37,7 @@ export default function Movie(props) {
                 </div>
             </Card.Body>
             <Card.Footer>
-{/* call in ReviewModal? connected to buttons. Remove Rate Film button with stars/flames that are clickable */}
+{/* want a modal to pop up with the buttons */}
             </Card.Footer>
         </Card>
     );
