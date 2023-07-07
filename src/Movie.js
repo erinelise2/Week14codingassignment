@@ -25,10 +25,9 @@ export default function Movie(props) {
                     <b className="summary"></b> {props.summary}
                 </Card.Text>
                 <div className="card-btn"> 
-{/* option to show current star average */}
+                    <ReviewModal />
                     <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film 🔥</button>
-                    <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button>
-                    <button className="review-btn btn border-secondary bg-white form-control mb-2">View Reviews</button>
+                    {/* <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button> */}
                 </div>
                 <hr />    
                 <div className="external-links pt-2">
@@ -37,7 +36,7 @@ export default function Movie(props) {
                 </div>
             </Card.Body>
             <Card.Footer>
-{/* want a modal to pop up with the buttons */}
+            <button className="review-btn btn border-secondary bg-white form-control mt-2">View Reviews</button>
             </Card.Footer>
         </Card>
     );
