@@ -12,7 +12,7 @@ export default class Nav extends Component {
               <a className="nav-link" href="#About" target="_blank" rel="noreferrer">About</a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#contact" target="_blank" rel="noreferrer">Contact Us</a>
+              <a className="nav-link" href="#contact" target="_blank" rel="noreferrer">Contact</a>
             </li>
         </ul>
       </nav>

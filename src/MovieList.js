@@ -17,6 +17,7 @@ import willow from "./images/willow.jpeg"
 import thx from "./images/thx.jpeg";
 import labrynth from "./images/labrynth.jpg";
 
+// All information from IMDb
 
 export default [
   {
@@ -99,19 +100,6 @@ export default [
   },
   {
     id: 7,
-    title: "Rogue One: A Star Wars Story",
-    director: "Gareth Edwards",
-    writers: "Chris Weitz, Tony Gilroy, John Knoll",
-    actors: "Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen",
-    year: "2016",
-    summary:
-      "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
-    image: rogueone,
-    imdb: "https://www.imdb.com/title/tt3748528/?ref_=ttls_li_tt",
-    moviepage: "https://www.lucasfilm.com/productions/rogue_one/",
-  },
-  {
-    id: 8,
     title: "Star Wars: Episode VII - The Force Awakens",
     director: "J.J. Abrams",
     writers: "Lawrence Kasdan, J.J. Abrams, Michael Arndt",
@@ -122,6 +110,19 @@ export default [
     image: forceawakens,
     imdb: "https://www.imdb.com/title/tt2488496/?ref_=ttls_li_tt",
     moviepage: "https://www.lucasfilm.com/productions/episode-vii/",
+  },
+  {
+    id: 8,
+    title: "Rogue One: A Star Wars Story",
+    director: "Gareth Edwards",
+    writers: "Chris Weitz, Tony Gilroy, John Knoll",
+    actors: "Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen",
+    year: "2016",
+    summary:
+      "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
+    image: rogueone,
+    imdb: "https://www.imdb.com/title/tt3748528/?ref_=ttls_li_tt",
+    moviepage: "https://www.lucasfilm.com/productions/rogue_one/",
   },
   {
     id: 9,
@@ -141,7 +142,7 @@ export default [
     title: "Star Wars: Episode IX - The Rise of Skywalker",
     director: "J.J. Abrams",
     writers: "Chris Terrio, J.J. Abrams, Derek Connolly",
-    actors: "Daisy Ridley, John Boyega, Oscar Isaac, Adam Driver, Carrier Fisher, Mark Hamill ",
+    actors: "Daisy Ridley, John Boyega, Oscar Isaac, Adam Driver, Carrier Fisher, Mark Hamill",
     year: "2019",
     summary:
       "In the riveting conclusion of the landmark Skywalker saga, new legends will be born-and the final battle for freedom is yet to come.",
