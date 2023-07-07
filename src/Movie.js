@@ -1,4 +1,6 @@
+import React from "react";
 import Card from "react-bootstrap/Card";
+
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
@@ -31,6 +33,9 @@ export default function Movie(props) {
                     <a href={props.moviepage} target="_blank">Official Movie Site</a>
                 </div>
             </Card.Body>
+            <Card.Footer>
+
+            </Card.Footer>
         </Card>
     );
 }
