@@ -12,6 +12,19 @@ import ReviewList from "./ReviewList";
 // buttons https://ej2.syncfusion.com/react/documentation/card/action-buttons#:~:text=You%20can%20include%20Action%20buttons,within%20the%20card%20action%20element.
 
 export default function Movie(props) {
+    const [formData, setFormData] = React.useState([
+        {
+            userName: 'Sullivan',
+            userReview: 'The Best! My go to',
+            reviewDate: '2023-07-04',
+        },
+        {
+            userName: 'Lola',
+            userReview: 'Enjoyable, but not one I would watch over and over.',
+            reviewDate: '2023-07-06',
+        }
+    ]);
+
     return (
         <Card bg="secondary" text="white" className="movie-cards">
             <Card.Body>
@@ -28,7 +41,11 @@ export default function Movie(props) {
                 </Card.Text>
                 <hr />
                 <div className="card-btn"> 
-                    <ReviewModal />
+                    <ReviewModal 
+                        title={props.title}
+                        formData={formData}
+                        setFormData={setFormData}
+                    />
                     <RateModal />
                     <ReviewList />
                 </div>

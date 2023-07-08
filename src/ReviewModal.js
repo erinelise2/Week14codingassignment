@@ -13,7 +13,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button'; 
 import Modal from 'react-bootstrap/Modal';
 import Form from "react-bootstrap/Form"; //no longer here... they're in the components
-import Review from "./Review";
+import ReviewForm from "./ReviewForm";
 
 
 
@@ -39,7 +39,7 @@ function ReviewMovie() {
           <Modal.Title className="text-dark">Review This Film</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <Review />
+            <ReviewForm />
         </Modal.Body>
       </Modal>
     </>

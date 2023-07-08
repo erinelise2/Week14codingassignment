@@ -17,6 +17,8 @@
     "react-scripts": "5.0.1",
     "react-simple-star-rating": "^5.1.7",
     "react-stars": "^2.2.5",
+    "reactstrap": "^9.2.0",
+    "typescript": "^5.1.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -10,16 +10,16 @@ export default function Stars() {
     // Catch Rating value
     const handleRating = (rate) => {
       setRating(rate)
-
     }
+
     return (
-      <div className='StarRating'>
-        <Rating
-          onClick={handleRating}
-          ratingValue={rating}
-          fillColor="#002395"
-        />
-        <Button onClick={handleRating} form="user-rate-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control m-3">Submit Your Rating </Button>
-      </div>
-    )
-  }
+        <div className='StarRating'>
+          <Rating
+            onClick={handleRating}
+            ratingValue={rating}
+            fillColor="#002395"
+          />
+          <Button type="submit" form="user-rate-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control m-3">Submit Your Rating </Button>
+        </div>
+      )
+    }

@@ -38,7 +38,7 @@ function ReviewList() {
                         <th>Date</th>
                         <th>Review</th>
                     </tr>
-                </thead>
+                </thead>                
                 <tbody class="table-body">
 {/* review information */}
                 </tbody>
