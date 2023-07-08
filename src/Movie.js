@@ -40,6 +40,7 @@ export default function Movie(props) {
             </Card.Body>
             <Card.Footer>
                 <ReviewList />
+                <p className="m-1"> Average Rating: </p>
             {/* <button className="review-btn btn border-secondary bg-white form-control mt-2">View Reviews</button> */}
             </Card.Footer>
         </Card>

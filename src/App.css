@@ -117,3 +117,18 @@ a:hover {
 a:active { 
   text-decoration: none; 
 }
+
+.user-review-modal {
+  letter-spacing: 0.5pt;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

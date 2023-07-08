@@ -6,6 +6,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button'; // leaving here, but changed to lowercase b from bootstrap
 import Modal from 'react-bootstrap/Modal';
+import Review from './Review';
 
 function ReviewList() {
   const [show, setShow] = useState(false);
@@ -38,12 +39,12 @@ function ReviewList() {
                     </tr>
                 </thead>
                 <tbody class="table-body">
-
+                    <Review />    
                 </tbody>
             </table>
         </Modal.Body>
         <Modal.Footer>
-          <button form="review-list-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Return Home </button>
+          <Button form="review-list-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2" onClick={handleClose}>Return Home </Button>
         </Modal.Footer>
       </Modal>
     </>
