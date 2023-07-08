@@ -32,7 +32,7 @@ const data = [
       image: anewhope,
       imdb: "https://www.imdb.com/title/tt0076759/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-iv",
-      averageRating: 5,
+      averageRating: 4.5,
       reviews: [],
     },
     {
@@ -47,7 +47,7 @@ const data = [
       image: empire,
       imdb: "https://www.imdb.com/title/tt0080684/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-v/",
-      averageRating: 0,
+      averageRating: 5,
       reviews: [],
     },
     {
@@ -62,7 +62,7 @@ const data = [
       image: returnofthejedi,
       imdb: "https://www.imdb.com/title/tt0086190/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-vi/",
-      averageRating: 0,
+      averageRating: 4.25,
       reviews: [],
     },
     {
@@ -77,7 +77,7 @@ const data = [
       image: phantommenace,
       imdb: "https://www.imdb.com/title/tt0120915/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-1/",
-      averageRating: 0,
+      averageRating: 3,
       reviews: [],
     },
     {
@@ -92,7 +92,7 @@ const data = [
       image: attackoftheclones,
       imdb: "https://www.imdb.com/title/tt0086190/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-ii/",
-      averageRating: 0,
+      averageRating: 1.5,
       reviews: [],
     },
     {
@@ -107,7 +107,7 @@ const data = [
       image: revengeofthesith,
       imdb: "https://www.imdb.com/title/tt0121766/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-iii/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -122,7 +122,7 @@ const data = [
       image: forceawakens,
       imdb: "https://www.imdb.com/title/tt2488496/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-vii/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -137,7 +137,7 @@ const data = [
       image: rogueone,
       imdb: "https://www.imdb.com/title/tt3748528/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/rogue_one/",
-      averageRating: 0,
+      averageRating: 4.5,
       reviews: [],
     },
     {
@@ -152,7 +152,7 @@ const data = [
       image: lastjedi,
       imdb: "https://www.imdb.com/title/tt2527336/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-viii/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -167,7 +167,7 @@ const data = [
       image: riseofskywalker,
       imdb: "https://www.imdb.com/title/tt2527338/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-ix/",
-      averageRating: 0,
+      averageRating: 4.5,
       reviews: [],
     },
     {
@@ -182,7 +182,7 @@ const data = [
       image: raidersofthelostark,
       imdb: "https://www.imdb.com/title/tt0082971/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
-      averageRating: 0,
+      averageRating: 5,
       reviews: [],
     },
     {
@@ -197,7 +197,7 @@ const data = [
       image: templeofdoom,
       imdb: "https://www.imdb.com/title/tt0087469/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-temple-of-doom/",
-      averageRating: 0,
+      averageRating: 4.5,
       reviews: [],
     },
     {
@@ -212,7 +212,7 @@ const data = [
       image: lastcrusade,
       imdb: "https://www.imdb.com/title/tt0097576/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-last-crusade/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -227,7 +227,7 @@ const data = [
       image: crystalskull,
       imdb: "https://www.imdb.com/title/tt0367882/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-kingdom-of-the-crystal-skull/",
-      averageRating: 0,
+      averageRating: 2.5,
       reviews: [],
     },
     {
@@ -242,7 +242,7 @@ const data = [
       image: dialofdestiny,
       imdb: "https://www.imdb.com/title/tt1462764/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-dial-of-destiny/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -257,7 +257,7 @@ const data = [
       image: willow,
       imdb: "https://www.imdb.com/title/tt0096446/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/willow/",
-      averageRating: 0,
+      averageRating: 4,
       reviews: [],
     },
     {
@@ -272,7 +272,7 @@ const data = [
       image: labrynth,
       imdb: "https://www.imdb.com/title/tt0096446/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/labyrinth/",
-      averageRating: 0,
+      averageRating: 4.25,
       reviews: [],
     },
     {
@@ -287,7 +287,7 @@ const data = [
       image: thx,
       imdb: "https://www.imdb.com/title/tt0066434/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_thx",
       moviepage: "https://www.lucasfilm.com/productions/thx-1138/",
-      averageRating: 0,
+      averageRating: 3,
       reviews: [],
     },
   ];

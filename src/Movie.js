@@ -13,9 +13,10 @@ import ReviewList from "./ViewReviewModal";
 export default function Movie(props) {
     return (
         <Card bg="secondary" text="white" className="movie-cards">
+            <Card.Header>
+            <Card.Title className="movie-title">{props.title} ({props.year})</Card.Title>                
+            </Card.Header>
             <Card.Body>
-                <Card.Title className="movie-title">{props.title} ({props.year})</Card.Title>
-                <hr />
                 <Card.Img variant="top" src={props.image} />
                 <hr />
                 <Card.Text>
@@ -25,7 +26,7 @@ export default function Movie(props) {
                     <hr />
                     <b className="summary"></b> {props.summary} <br />
                     <hr />
-                    <b className="summary">Average Rating  - </b> {props.averageRating} ⭐'s <br />
+                    <b className="summary">User Rating  - </b> {props.averageRating} ⭐'s <br />
                 </Card.Text>
                 <hr />
                 <div className="card-btn"> 
