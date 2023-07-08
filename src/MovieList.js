@@ -32,7 +32,7 @@ const data = [
       image: anewhope,
       imdb: "https://www.imdb.com/title/tt0076759/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-iv",
-      averageRating: 0,
+      averageRating: 5,
       reviews: [],
     },
     {

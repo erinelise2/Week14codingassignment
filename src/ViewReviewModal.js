@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button'; 
 import Modal from 'react-bootstrap/Modal';
 
-// import Review from './Review';
+import Review from './Review';
 
 function ReviewList(props) {
   const [show, setShow] = useState(false);
@@ -30,19 +30,8 @@ function ReviewList(props) {
         <Modal.Header closeButton>
           <Modal.Title className="text-dark">Film Reviews</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-            <table id="review-list-modal" className="review-list-modal m-1 table border-3 text-center">
-                <thead class="table-header fw-bolder">
-                    <tr>
-                        <th>User</th>
-                        <th>Date</th>
-                        <th>Review</th>
-                    </tr>
-                </thead>                
-                <tbody class="table-body">
-                    {props.reviews}
-                </tbody>
-            </table>
+        <Modal.Body className="text-dark">
+          <Review />
         </Modal.Body>
         <Modal.Footer>
           <Button form="review-list-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2" onClick={handleClose}>Return Home </Button>

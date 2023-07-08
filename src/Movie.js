@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import ReviewModal from "./ReviewModal";
 import RateModal from "./RateModal";
-import ReviewList from "./ReviewList";
+import ReviewList from "./ViewReviewModal";
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
