@@ -10,9 +10,7 @@
 // Static Backdrop template from https://react-bootstrap.netlify.app/docs/components/modal/
 
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button'; 
 import Modal from 'react-bootstrap/Modal';
-import Form from "react-bootstrap/Form"; //no longer here... they're in the components
 import ReviewForm from "./ReviewForm";
 
 
@@ -48,7 +46,3 @@ function ReviewMovie() {
 
 export default ReviewMovie;
 
-            {/* <Form.Label id="user-review-modal" className="user-review-modal text-dark">Fill out the information below to submit your review!</Form.Label>
-                <Form.Control className="mb-1" type="text" id="userName" name="userName" placeholder="Your Name" />
-                <Form.Control className="mb-1" type="text" id="userReview" name="userReview" placeholder="Your Reivew" />
-                <Form.Control className="text-secondary" type="date" id="reviewDate" name="reviewDate"  />            */}

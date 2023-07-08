@@ -9,7 +9,7 @@ import Modal from 'react-bootstrap/Modal';
 
 // import Review from './Review';
 
-function ReviewList() {
+function ReviewList(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -40,7 +40,7 @@ function ReviewList() {
                     </tr>
                 </thead>                
                 <tbody class="table-body">
-{/* review information */}
+                    {props.reviews}
                 </tbody>
             </table>
         </Modal.Body>

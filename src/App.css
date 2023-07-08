@@ -71,11 +71,6 @@ main {
   font-style: italic;
 } */
 
-.movie-specs {
-  font-size: medium;
-  font-style: italic;
-}
-
 .summary {
   font-weight: bolder;
   font-family: 'Abril Fatface';
@@ -118,6 +113,8 @@ a:active {
   text-decoration: none; 
 }
 
+/*  */
+
 .user-review-modal {
   letter-spacing: 0.5pt;
   display: flex;
@@ -132,4 +129,9 @@ a:active {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+.average-rating {
+  text-align: center;
+  font-size: 30pt;
 }
