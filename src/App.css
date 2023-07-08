@@ -126,7 +126,7 @@ a:active {
   justify-content: center;
 }
 
-.App {
+.StarRating {
   display: flex;
   align-items: center;
   flex-direction: column;

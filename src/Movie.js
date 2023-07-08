@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Stars from "./Stars";
 import ReviewModal from "./ReviewModal";
 import RateModal from "./RateModal";
-import ReviewList from "./ReviewList"
+import ReviewList from "./ReviewList";
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
@@ -26,22 +26,21 @@ export default function Movie(props) {
                     <hr />
                     <b className="summary"></b> {props.summary}
                 </Card.Text>
+                <hr />
                 <div className="card-btn"> 
                     <ReviewModal />
                     <RateModal />
-                    {/* <button className="review-btn btn border-secondary bg-white form-control mb-2">Rate Film 🔥</button> */}
-                    {/* <button className="review-btn btn border-secondary bg-white form-control mb-2">Review Film</button> */}
+                    <ReviewList />
                 </div>
-                <hr />    
-                <div className="external-links pt-2">
-                    <a href={props.imdb} className="p-1 m-1" target="_blank">IMDb</a>
-                    <a href={props.moviepage} className="p-1 m-1"  target="_blank">Official Site</a>
+                <div className="container text-center">
+                    <p> Average Rating:  </p> 
                 </div>
             </Card.Body>
             <Card.Footer>
-                <ReviewList />
-                <p className="m-1"> Average Rating: </p>
-            {/* <button className="review-btn btn border-secondary bg-white form-control mt-2">View Reviews</button> */}
+                <div className="external-links">
+                    <a href={props.imdb} className="p-1 m-1" target="_blank">IMDb</a>
+                    <a href={props.moviepage} className="p-1 m-1"  target="_blank">Official Site</a>
+                </div>
             </Card.Footer>
         </Card>
     );

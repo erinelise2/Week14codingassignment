@@ -4,9 +4,10 @@
 // Static Backdrop template from https://react-bootstrap.netlify.app/docs/components/modal/
 
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button'; // leaving here, but changed to lowercase b from bootstrap
+import Button from 'react-bootstrap/Button'; 
 import Modal from 'react-bootstrap/Modal';
-import Review from './Review';
+
+// import Review from './Review';
 
 function ReviewList() {
   const [show, setShow] = useState(false);
@@ -16,7 +17,7 @@ function ReviewList() {
 
   return (
     <>
-      <button onClick={handleShow} className="review-list-btn btn border-secondary bg-white form-control mt-2 mb-2" variant="white">
+      <button onClick={handleShow} className="review-list-btn btn border-secondary bg-white form-control mb-2" variant="white">
       View Reviews 
       </button>
 
@@ -39,7 +40,7 @@ function ReviewList() {
                     </tr>
                 </thead>
                 <tbody class="table-body">
-                    <Review />    
+{/* review information */}
                 </tbody>
             </table>
         </Modal.Body>

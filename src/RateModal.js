@@ -35,15 +35,13 @@ function RateMovie() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title className="text-dark">Rate the Film</Modal.Title>
+          <Modal.Title className="text-dark">Rate This Film</Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <Form.Label id="user-review-modal" className="user-review-modal text-dark">Hover Over The Stars To Select Your Rating </Form.Label>
             <Stars />
         </Modal.Body>
-        <Modal.Footer>
-            <button form="user-rate-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Rating </button>
-        </Modal.Footer>
+
       </Modal>
     </>
   );

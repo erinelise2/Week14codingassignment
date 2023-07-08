@@ -1,4 +1,5 @@
 // import { useState, useEffect} from "react";
+// import Form from "react-bootstrap/Form";
 // import Star from './Stars';
 
 // https://www.w3schools.com/react/react_usestate.asp
@@ -6,7 +7,7 @@
 
 // form skeleton from Mark Anthony's class... added/changed words to fit what I want to display: the username, the review, the date.... not sure how to do the star/flame rating
 
-// function ReviewForm() {
+// export default function ReviewForm() {
 //     const [formData, setFormData] = useState({});
 
 //     const handleChange = (e) => {
@@ -23,13 +24,13 @@
 //     }
 
 //     return (
-//         <form action = "" >
-//             <input onChange={handleChange} type="text" name="userName" placeholder="Your Name" />
-//             <input onChange={handleChange} type="text" name="userReview" placeholder="Your Reivew" />
-//              <input onchange={handleChange} type="date" name="reviewDate" placeholder="Today's Date" />
-//             <button>Submit Your Review</button>
-//         </form>
+//         <Form action = "" >
+//             <Form.Label id="user-review-modal" className="user-review-modal text-dark">Fill out the information below to submit your review!</Form.Label>
+//             <Form.Control className="mb-1" onChange={handleChange} type="text" id="userName" name="userName" placeholder="Your Name" />
+//             <Form.Control className="mb-1" onChange={handleChange} type="text" id="userReview" name="userReview" placeholder="Your Reivew" />
+//             <Form.Control className="text-secondary mb-1" onChange={handleChange} type="date" id="reviewDate" name="reviewDate"  />  
+//             <button form="user-review-modal" variant="secondary" className="btn border-secondary bg-secondary text-white form-control mb-2">Submit Your Review </button>
+//         </Form>
 //     )
 // }
 
-// export default ReviewForm
