@@ -33,7 +33,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0076759/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-iv",
       averageRating: 4.5,
-      reviews: [],
     },
     {
       movieId: 2,
@@ -48,7 +47,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0080684/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-v/",
       averageRating: 5,
-      reviews: [],
     },
     {
       movieId: 3,
@@ -63,7 +61,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0086190/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-vi/",
       averageRating: 4.25,
-      reviews: [],
     },
     {
       movieId: 4,
@@ -78,7 +75,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0120915/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-1/",
       averageRating: 3,
-      reviews: [],
     },
     {
       movieId: 5,
@@ -93,7 +89,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0086190/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-ii/",
       averageRating: 1.5,
-      reviews: [],
     },
     {
       movieId: 6,
@@ -108,7 +103,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0121766/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-iii/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 7,
@@ -123,7 +117,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt2488496/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-vii/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 8,
@@ -138,7 +131,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt3748528/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/rogue_one/",
       averageRating: 4.5,
-      reviews: [],
     },
     {
       movieId: 9,
@@ -153,7 +145,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt2527336/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-viii/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 10,
@@ -168,7 +159,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt2527338/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/episode-ix/",
       averageRating: 4.5,
-      reviews: [],
     },
     {
       movieId: 11,
@@ -183,7 +173,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0082971/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
       averageRating: 5,
-      reviews: [],
     },
     {
       movieId: 12,
@@ -198,7 +187,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0087469/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-temple-of-doom/",
       averageRating: 4.5,
-      reviews: [],
     },
     {
       movieId: 13,
@@ -213,7 +201,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0097576/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-last-crusade/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 14,
@@ -228,7 +215,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0367882/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-kingdom-of-the-crystal-skull/",
       averageRating: 2.5,
-      reviews: [],
     },
     {
       movieId: 15,
@@ -243,7 +229,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt1462764/?ref_=adv_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/indiana-jones-and-the-dial-of-destiny/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 16,
@@ -258,7 +243,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0096446/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/willow/",
       averageRating: 4,
-      reviews: [],
     },
     {
       movieId: 17,
@@ -273,7 +257,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0096446/?ref_=ttls_li_tt",
       moviepage: "https://www.lucasfilm.com/productions/labyrinth/",
       averageRating: 4.25,
-      reviews: [],
     },
     {
       movieId: 18,
@@ -288,7 +271,6 @@ const data = [
       imdb: "https://www.imdb.com/title/tt0066434/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_thx",
       moviepage: "https://www.lucasfilm.com/productions/thx-1138/",
       averageRating: 3,
-      reviews: [],
     },
   ];
 

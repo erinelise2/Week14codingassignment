@@ -1,4 +1,7 @@
 // https://www.youtube.com/watch?v=rO2U3eFQ440
+// https://www.freecodecamp.org/news/how-to-create-forms-in-react-using-react-hook-form/#:~:text=We%20also%20added%20the%20onSubmit,can%20track%20the%20changing%20data.
+// https://blog.logrocket.com/accessing-previous-props-state-react-hooks/ ... went back and looked at videos for counter. Need to find out if they are hosted on youtube when class is over.
+
 
 import React from "react";
 import { Button, Form, Input } from "reactstrap";
