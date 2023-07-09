@@ -1,26 +1,47 @@
-import React from 'react';
-import data from "./Movie";
+// import React from 'react';
+// import ReviewList from "./ReviewList";
+// import { useState } from 'react';
 
-// Can this extend the movie(props) to pull data and connect them? How do I connect this to the review array to view the reviews connected to that film??
 
-export default class Review extends React.Component {
-    constructor(props) {
-        super(props);
-        this.handleClick = this.handleClick.bind(this);
-    }
+// export default function Review(props) {
+//   const [userValue, setUserValue] = useState("");
+//   const [reviewValue, setReviewValue] = useState("");
 
-    handleClick() {
-        console.log(`Film To Be Reviewed; (${this.props.id})`);
-    }
+//   function saveReview(event) {
+//     event.preventDefault();
+//     props.setReviewData((prevData) => [
+//       ...prevData,
+//       {
+//         userName: userValue,
+//         userReview: reviewValue,
+//       },
+//     ]);
 
-    render() {
-        return (
-            <div onClick={this.handleClick}>
-                <p>Film Title: {this.props.title}</p>
-                <p>Reviewer: {this.props.userName}</p>
-                <p>Review: {this.props.userReview}</p>
-                <p>Review Date: {this.props.reviewDate}</p>
-            </div>
-        );
-    }   
-}
+//     setUserValue("");
+//     setReviewValue("");
+//   }
+//   return (
+//     <div>
+//       <form className="review-form" onSubmit={saveReview}>
+//         <input
+//           type="text"
+//           placeholder="Enter your name"
+//           name="userName"
+//           value={userValue}
+//           onChange={(event) => setUserValue(event.target.value)}
+//           required
+//         />
+//         <textarea
+//           placeholder="Enter your review"
+//           name="userReview"
+//           value={reviewValue}
+//           onChange={(event) => setReviewValue(event.target.value)}
+//           required
+//         />
+       
+//         <button className="form-button">Submit your review</button>
+//       </form>
+//       <ReviewList reviews={props.reviewData} />
+//     </div>
+//   );
+// }

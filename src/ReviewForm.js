@@ -1,36 +1,50 @@
 // https://www.youtube.com/watch?v=rO2U3eFQ440
 
 import React from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import { Button, Form, Input } from "reactstrap";
 import { useState } from 'react';
+import ReviewList from "./ReviewList";
 
-export default function ReviewForm(props) {
-    let [formData, setFormData] = useState({
-        userName: '',
-        userReview: '',
-        reviewDate: '',
-    })
-
-    const handleOnChange = (field, value) => {
-        let newFormData = {...formData};
-        newFormData[field] = value;
-        setFormData(newFormData);
+export default function Review(props) {
+    const [user, setUser] = useState("");
+    const [review, setReview] = useState("");
+    const [date, setDate] = useState("")
+  
+    function saveReview(event) {
+      event.preventDefault();
+      props.setReviewData((prevData) => [
+        ...prevData,
+        {
+          userName: user,
+          userReview: review,
+          reviewDate: date,
+        },
+      ]);
+      setUser("");
+      setReview("");
+      setDate("");
     }
-
-    console.log('render');
-
+  
     return (
-        <Form>
-            <Form.Label className="review-form text-dark" >Fill out the information below to submit your review!</Form.Label>
+      <div className="form-container">
+         <Form onSubmit={saveReview}> 
+            <label className="review-form text-dark mb-2" >Fill out the information below to submit your review!</label>
 
-            <input className="form-control mb-1" value={formData['userName']} onChange={e => handleOnChange('userName', e.target.value)} type="text" placeholder="Your Name" name="userName" />
-         
-            <input className="form-control mb-1" value={formData['userReview']} onChange={e => handleOnChange('userReview', e.target.value)} type="text" placeholder="Your Review" name="userReview" />
+            <Input className="form-control mb-2" type="text" placeholder="Your Name" name="userName" value={user}
+            onChange={(event) => setUser(event.target.value)} required/>
 
-            <input className="form-control mb-1" value={formData['reviewDate']} onChange={e => handleOnChange('reviewDate', e.target.value)} type="date" placeholder="Today's Date" name="reviewData" />
+            <Input className="form-control mb-2" type="text" placeholder="Your Review" name="userReview" value={review} 
+            onChange={(event) => setReview(event.target.value)}/>
 
-            <button className="btn border-secondary bg-secondary text-white form-control mt-3 form-button" type="submit" >Submit Your Review</button>
+            <Input className="form-control mb-2" type="date" placeholder="Today's Date" name="reviewDate" value={date}
+            onChange={(event) => setDate(event.target.value)} required/>
+
+            <Button type="submit" className="btn border-secondary bg-secondary text-white form-control form-button form-control mb-2" > Submit Your Review </Button>
+
         </Form>
-    )
-}
+        <div className="text-dark">
+            <ReviewList reviews={props.reviewData} />
+        </div>
+      </div>
+    );
+  }

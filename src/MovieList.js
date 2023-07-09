@@ -21,7 +21,7 @@ import labrynth from "./images/labrynth.jpg";
 
 const data = [
     {
-      id: 1,
+      movieId: 1,
       title: "Star Wars: Episode IV - A New Hope",
       director: "George Lucas",
       writers: "George Lucas",
@@ -36,7 +36,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 2,
+      movieId: 2,
       title: "Star Wars: Episode V - The Empire Strikes Back",
       director: "Irvin Kershner",
       writers: "Leigh Brackett, Lawrence Kasdan, George Lucas",
@@ -51,7 +51,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 3,
+      movieId: 3,
       title: "Star Wars: Episode VI - Return of the Jedi",
       director: "Richard Marquand",
       writers: "Lawrence Kasdan, George Lucas",
@@ -66,7 +66,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 4,
+      movieId: 4,
       title: "Star Wars: Episode I - The Phantom Menace",
       director: "George Lucas",
       writers: "George Lucas",
@@ -81,7 +81,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 5,
+      movieId: 5,
       title: "Star Wars: Episode II - Attack of the Clones",
       director: "George Lucas",
       writers: "George Lucas, Jonathan Hales, John Ostrander",
@@ -96,7 +96,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 6,
+      movieId: 6,
       title: "Star Wars: Episode III - Revenge of the Sith",
       director: "George Lucas",
       writers: "George Lucas, John Ostrander, Jan Duursema",
@@ -111,7 +111,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 7,
+      movieId: 7,
       title: "Star Wars: Episode VII - The Force Awakens",
       director: "J.J. Abrams",
       writers: "Lawrence Kasdan, J.J. Abrams, Michael Arndt",
@@ -126,7 +126,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 8,
+      movieId: 8,
       title: "Rogue One: A Star Wars Story",
       director: "Gareth Edwards",
       writers: "Chris Weitz, Tony Gilroy, John Knoll",
@@ -141,7 +141,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 9,
+      movieId: 9,
       title: "Star Wars: Episode VIII - The Last Jedi",
       director: "Rian Johnson",
       writers: "Rian Johnson, George Lucas",
@@ -156,7 +156,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 10,
+      movieId: 10,
       title: "Star Wars: Episode IX - The Rise of Skywalker",
       director: "J.J. Abrams",
       writers: "Chris Terrio, J.J. Abrams, Derek Connolly",
@@ -171,7 +171,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 11,
+      movieId: 11,
       title: "Indiana Jones and the Raiders of the Lost Ark",
       director: "Steven Spielberg",
       writers: "Lawrence Kasdan, George Lucas, Philip Kaufman",
@@ -186,7 +186,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 12,
+      movieId: 12,
       title: "Indiana Jones and the Temple of Doom",
       director: "Steven Spielberg",
       writers: "Willard Huyck, Gloria Katz, George Lucas",
@@ -201,7 +201,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 13,
+      movieId: 13,
       title: "Indiana Jones and the Last Crusade",
       director: "Steven Spielberg",
       writers: "Lawrence Kasdan, George Lucas, Philip Kaufman",
@@ -216,7 +216,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 14,
+      movieId: 14,
       title: "Indiana Jones and the Kingdom of the Crystal Skull",
       director: "Steven Spielberg",
       writers: "David Koepp, George Lucas, Jeff Nathanson",
@@ -231,7 +231,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 15,
+      movieId: 15,
       title: "Indiana Jones and the Dial of Destiny",
       director: "James Mangold",
       writers: "Jez Butterworth, John-Henry Butterworth, David Koepp",
@@ -246,7 +246,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 16,
+      movieId: 16,
       title: "Willow",
       director: "Ron Howard",
       writers: "George Lucas, Bob Dolman",
@@ -261,7 +261,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 17,
+      movieId: 17,
       title: "Labrynth",
       director: "Jim Henson",
       writers: "Dennis Lee, Jim Henson, Terry Jones",
@@ -276,7 +276,7 @@ const data = [
       reviews: [],
     },
     {
-      id: 18,
+      movieId: 18,
       title: "THX 1138",
       director: "George Lucas",
       writers: "George Lucas, Walter Munch",

@@ -2,7 +2,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import ReviewModal from "./ReviewModal";
 import RateModal from "./RateModal";
-import ReviewList from "./ViewReviewModal";
+import { useState } from 'react';
+
 
 // https://www.npmjs.com/package/react-bootstrap-card 
 // https://react-bootstrap.netlify.app/docs/components/cards/
@@ -11,6 +12,13 @@ import ReviewList from "./ViewReviewModal";
 // buttons https://ej2.syncfusion.com/react/documentation/card/action-buttons#:~:text=You%20can%20include%20Action%20buttons,within%20the%20card%20action%20element.
 
 export default function Movie(props) {
+    const [reviewData, setReviewData] = useState([
+        {
+          userName: "Sullivan",
+          userReview: "Simply the best!",
+          reviewDate: "2023-07-04",
+        },
+      ]);
     return (
         <Card bg="secondary" text="white" className="movie-cards">
             <Card.Header>
@@ -30,9 +38,13 @@ export default function Movie(props) {
                 </Card.Text>
                 <hr />
                 <div className="card-btn"> 
-                    <ReviewModal />
+                    <ReviewModal 
+                        title={props.title}
+                        reviewData={reviewData}
+                        setReviewData={setReviewData}
+                        />
                     <RateModal />
-                    <ReviewList />
+
                 </div>
             </Card.Body>
             <Card.Footer>
