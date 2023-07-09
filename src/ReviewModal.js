@@ -1,8 +1,9 @@
 // // https://mui.com/material-ui/react-modal/
 // // https://www.npmjs.com/package/react-modal
 // // https://codepen.io/claydiffrient/pen/KNxgav
+// https://github.com/CalebCurry/react/blob/main/src/components/EditEmployee.js had some helpful codes for modals as well
 
-// Static Backdrop template from https://react-bootstrap.netlify.app/docs/components/modal/ Love that these are so simple!
+// Static Backdrop template from https://react-bootstrap.netlify.app/docs/components/modal/ Love that these are so simple! This one pulls up from the Review Film Button that is added to Movie.js. It will also pull the review that is stored there while helping map the new ones with the reviewdata calls.
 
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';

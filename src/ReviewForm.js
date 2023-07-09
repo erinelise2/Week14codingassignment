@@ -27,7 +27,8 @@ export default function Review(props) {
       setReview("");
       setDate("");
     }
-  
+
+//   the form will call the function when the form is submitted via the button. It will then go below the modal text in the ReviewList that is the array of reviews created with the .map function. They are static, and the new ones do not save anywhere, but you can see what you are doing.
     return (
       <div className="form-container">
          <Form onSubmit={saveReview}> 

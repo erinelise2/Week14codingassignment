@@ -17,7 +17,7 @@ import willow from "./images/willow.jpeg"
 import thx from "./images/thx.jpeg";
 import labrynth from "./images/labrynth.jpg";
 
-// All information from IMDb
+// All information from IMDb. There are other ways to do this... most videos had APIs, or could have used websites, but since images can move, I decided to import them. This array of information for each film will be called in the Movie page to map the properties or each into the cards.
 
 const data = [
     {
